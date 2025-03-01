@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(135deg, #df76b3, #27be6b);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+   
+    justify-content: center;
+    align-items: center
+
+  }
+  #container{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+      width: 150px;
+      gap: 5px;
+  }
+  
+  #letter{
+      padding: 10px;
+      background-color: red;
+  }
+  
+  /* עיצוב הכפתור */
+  #button-49 {
+    background: linear-gradient(90deg, #ff512f, #dd2476);
+    border: none;
+    color: white;
+    font-size: 13px;
+    padding: 18px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(255, 0, 150, 0.5);
+  }
+
+  #word{
+  height: 32px;
+  }
